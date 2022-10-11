@@ -1,0 +1,21 @@
+body
+{
+    background-color: bisque;
+}
+
+h1
+{
+    color: brown;
+    text-align: center;
+}
+
+p
+{
+    text-align: center;
+}
+span
+{
+    color:rosybrown;
+    font-size: 35px;
+    font-family: "Brush Script MT";
+}
