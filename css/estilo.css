@@ -19,3 +19,44 @@ span
     font-size: 35px;
     font-family: "Brush Script MT";
 }
+
+.bloque-hero
+{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+.btn-outline-info
+{
+    border-color: #06DFC8;
+}
+
+
+.btn:hover
+{
+    background-color:#06DFC8;
+    border-color: #06DFC8;
+}
+
+p
+{
+    font-family: 'Roboto Mono', monospace; 
+}
+
+.container
+{
+    margin-top: 3%;
+    background-color: white;
+    padding-top: 3%;
+}
+
+.rounded
+{
+    border-radius: 1rem;
+}
+
+h1
+{
+    margin-bottom: 1em;
+}
