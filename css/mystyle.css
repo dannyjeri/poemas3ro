@@ -84,5 +84,16 @@ h1
     bottom: 0%;
     font-family: 'Roboto Mono', monospace; 
     color: white;
-    font-size: 0.8em;
+    font-size: 1em;
+}
+
+a.tnk
+{
+    color: white;
+    text-decoration: none;
+}
+
+a.tnk:hover
+{
+    text-decoration: underline;
 }
