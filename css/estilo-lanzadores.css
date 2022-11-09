@@ -20,7 +20,8 @@ body
 
 h1
 {
-    margin-top: 7%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     color: white;
     text-align: center;  
 }
@@ -31,6 +32,12 @@ h2
     border-bottom: 2px solid white;
     margin-bottom: 2%;
     
+}
+
+p
+{
+    color: white;
+    font-size: 1.2em;
 }
 
 .warp-poemas
@@ -73,4 +80,38 @@ h2
     background-color: white;
     color: #212529;
 }
+
+.fondo-tnks
+
+{
+    padding-top: 2%;
+    background-color: #0D1117;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.img-hero
+{
+    width: 40%;
+}
+
+.icono-hero
+{
+    text-align: center;
+}
+
+.icono-colaborador
+{
+    width: 5%;
+}
+
+.student
+{
+    border: 1px solid #0D1117;
+}
+
+
+
+
 
