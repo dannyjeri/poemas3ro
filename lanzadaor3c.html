@@ -1,43 +1,272 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-        <!-- Fuentes     -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Sedgwick+Ave&display=swap" rel="stylesheet">
-    
-    
-        <!-- Bootstrap CSS -->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        
-        <link rel="stylesheet" href="css/mystyle.css">
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
-    <title>Lanzador 3C</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilo-lanzadores.css">
+
+  <title>Poemario 3ro de secundaria</title>
 </head>
+
 <body>
+
+
+
+
+
+  <div class="container-fluid fondo-lanzador">
+
     <div class="container">
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-    <h1>Listado de poemas de los alumnos del 3ro C</h1>
-
-    <div class="list-group">
-        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-          Listado de Poemas
+          <span class="fs-4">Poemario 3ro de secundaria</span>
         </a>
-        <a href="Anett3C.html" class="list-group-item list-group-item-action">Poema del estudiante Anett Sauñe</a>
-        <a href="CamilaCancho3C.html" class="list-group-item list-group-item-action">Poema del estudiante Camila Cancho</a>
-        <a href="Fabian3C.html" class="list-group-item list-group-item-action">Poema del estudiante Fabian Tudela</a>
-        <a href="Ckaren3C.html" class="list-group-item list-group-item-action">Poema del estudiante Ckaren Ore</a>
-     
-      </div>
+
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link">Principal</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Secciones
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" href="lanzadaor3a.html">3ro Secundaria "A"</a></li>
+              <li><a class="dropdown-item" href="lanzadaor3b.html">3ro Secundaria "B"</a></li>
+              <li><a class="dropdown-item" href="lanzadaor3c.html">3ro Secundaria "C"</a></li>
+              <li><a class="dropdown-item" href="lanzadaor3d.html">3ro Secundaria "D"</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="agradecimientos.html" class="nav-link">Agradecimientos</a></li>
+        </ul>
+      </header>
     </div>
-    
+
+
+
+
+
+
+
+
+    <div class="container">
+      <h1>Poemario 3ro de Secundaria "A"</h1>
+
+      <div class="warp-poemas">
+        <h2>Poemas destacados</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+          <!-- Tarjeta destacada 1 -->
+          <div class="col">
+            <div class="card">
+              <!-- Enlace del video del poema - cambiar width a 100% borrar height -->
+              <iframe width="100%" src="https://www.youtube.com/embed/yck4cPf6GdE" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Nombre del alumno - Título del poema</h5>
+                <p class="card-text">Agregar un breve fragmento del poema</p>
+
+                <a href=""><button type="button" class="btn btn-outline-dark">Ver poema</button></a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta destacada 2 -->
+          <div class="col">
+            <div class="card">
+              <!-- Enlace del video del poema - cambiar width a 100% borrar height -->
+              <iframe width="100%" src="https://www.youtube.com/embed/yv3_5jz-KAU" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Nombre del alumno - Título del poema</h5>
+                <p class="card-text">Agregar un breve fragmento del poema</p>
+
+                <a href=""><button type="button" class="btn btn-outline-dark">Ver poema</button></a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta destacada 3 -->
+          <div class="col">
+            <div class="card">
+              <!-- Enlace del video del poema - cambiar width a 100% borrar height -->
+              <iframe width="100%" src="https://www.youtube.com/embed/T_OND2ArW-4" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Nombre del alumno - Título del poema</h5>
+                <p class="card-text">Agregar un breve fragmento del poema</p>
+
+                <a href=""><button type="button" class="btn btn-outline-dark">Ver poema</button></a>
+
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta destacada 4 -->
+          <div class="col">
+            <div class="card">
+              <!-- Enlace del video del poema - cambiar width a 100% borrar height -->
+              <iframe width="100%" src="https://www.youtube.com/embed/6_zilf_e42U" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Nombre del alumno - Título del poema</h5>
+                <p class="card-text">Agregar un breve fragmento del poema</p>
+
+                <a href=""><button type="button" class="btn btn-outline-dark">Ver poema</button></a>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Tarjeta destacada 5 -->
+          <div class="col">
+            <div class="card">
+              <!-- Enlace del video del poema - cambiar width a 100% borrar height -->
+              <iframe width="100%" src="https://www.youtube.com/embed/6_zilf_e42U" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+              <div class="card-body">
+                <h5 class="card-title">Nombre del alumno - Título del poema</h5>
+                <p class="card-text">Agregar un breve fragmento del poema</p>
+
+                <a href=""><button type="button" class="btn btn-outline-dark">Ver poema</button></a>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+        </div>
+
+
+      </div>
+
+      <div class="warp-poemas">
+        <h2>Todos los poemas</h2>
+
+          <!-- Agreguen los enlaces hacia los poemas de sus cumpañeros -->
+        <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Emir Alfaro</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Rubi Arones</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante ManueL Ascarza</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Francys Ayala</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Gustavo Cacñahuaray</a>
+        <a href="CamilaCancho3C.html" class="list-group-item list-group-item-action">Poema del estudiante Camila Cancho</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Josafat Duran</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Camila Escalante</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Luciano Garcia</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Andrea Huamancusi</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Alvaro Leon</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Angela Diana</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Jimena Andrea</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Raul Melendez </a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Raphael Miguel</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Josemaria Nuñez</a>
+        <a href="Ckaren3C.html" class="list-group-item list-group-item-action">Poema del estudiante Pamela Ore</a>
+        <a href="Kiara3C.html" class="list-group-item list-group-item-action">Poema del estudiante Kiara Otarola</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Fabricio Quispe</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Jhon Rimachi</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Mariana Rojas</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Hanss Rojas</a>
+        <a href="Anett3C.html" class="list-group-item list-group-item-action">Poema del estudiante Anett Sauñe</a>
+        <a href="#" class="list-group-item list-group-item-action">Poema del estudiante Damaris Soca</a>
+        <a href="Fabian3C.html" class="list-group-item list-group-item-action">Poema del estudiante Yareli Tenorio</a>
+        <a href="Fabian3C.html" class="list-group-item list-group-item-action">Poema del estudiante Fabian Tudela</a>
+        <a href="Fabian3C.html" class="list-group-item list-group-item-action">Poema del estudiante Valery Tumbalobos</a>
+        <a href="Fabian3C.html" class="list-group-item list-group-item-action">Poema del estudiante Joseph Vega</a>
+        <a href="Fabian3C.html" class="list-group-item list-group-item-action">Poema del estudiante Greace Vilcamiche</a>
+        <a href="Fabian3C.html" class="list-group-item list-group-item-action">Poema del estudiante Yarin Cabrera</a>
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- Pie de página -->
+
+  <div class="container">
+    <footer class="row row-cols-4 py-4 my-4 border-top">
+      <div class="col">
+        <a href="index.html" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+          Poemario 3ro de Secundaria
+        </a>
+        <p class="text-muted">I.E.Pr. "Federico Froebel"</p>
+        <p class="text-muted">&copy; 2022</p>
+      </div>
+
+      <div class="col">
+
+      </div>
+
+      <div class="col">
+        <h5>Principal</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Principal</a></li>
+          <li class="nav-item mb-2"><a href="agradecimientos.html" class="nav-link p-0 text-muted">Agradecimientos</a></li>
+
+        </ul>
+      </div>
+
+      <div class="col">
+        <h5>Secciones</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="lanzadaor3a.html" class="nav-link p-0 text-muted">3ro de Secundaria "A"</a>
+          </li>
+          <li class="nav-item mb-2"><a href="lanzadaor3b.html" class="nav-link p-0 text-muted">3ro de Secundaria "B"</a>
+          </li>
+          <li class="nav-item mb-2"><a href="lanzadaor3c.html" class="nav-link p-0 text-muted">3ro de Secundaria "C"</a>
+          </li>
+          <li class="nav-item mb-2"><a href="lanzadaor3d.html" class="nav-link p-0 text-muted">3ro de Secundaria "D"</a>
+          </li>
+        </ul>
+      </div>
+
+    </footer>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
